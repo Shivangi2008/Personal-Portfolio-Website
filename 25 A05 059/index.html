@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shivangi - Personal Portfolio</title>
+    <link rel="icon" type="image/png" href="assets/myselflogo.jif">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header class="site-header">
+        <nav class="nav container">
+            <ul class="nav-links">
+                <li><a class="logo" href="#home">SHIVANGI</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#education">Education / Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <main>
+        <section id="home" class="hero container">
+            <div class="hero-left">
+                <h1>Hello, I'm Shivangi</h1>
+                <p class="tagline">Student || AI agents enthusiast || Storyteller || Poet </p>
+                <p class="lead">I build small projects, write stories and poems, and learn code.
+                    Currently learning C and Full stack Web development.
+                    Along with this exploring AI & robotics and realms of quantum physics.</p>
+                <div class="cta">
+                    <a class="btn" href="#projects">View Projects</a>
+                    <a class="btn ghost" href="#contact">Contact Me</a>
+
+                    <a href="assets/resume.pdf" class="btn" download>Download Résumé</a>
+                </div>
+            </div>
+            <div class="hero-right">
+                <img src="/assets/profile pic.jpeg" alt="Profile photo" class="profile-img">
+            </div>
+        </section>
+
+        <section id="about" class="container section">
+            <h2>About Me</h2>
+            <div class="about-grid">
+                <div>
+                    <p>I am a thoughtful and curious student who loves learning and exploring.
+                        Right now, i am learning algorithms and solving problems, through my knowledge of coding in C
+                        and python.
+                        I am also exploring the world of AI agents and robotics, and how they can be used to solve
+                        real-world problems.
+                    </p>
+                    <p>I enjoy writing stories and poems, i can make almost anytthing my muse.
+                        I also enjoy dancing and singing along with all this.
+                    </p>
+                    <p>For the long term, I aim to build an AI ecosystem of friendly robots. For now I'm focusing on
+                        short courses and small projects to build my way up.</p>
+                </div>
+                <div class="skills-quick">
+                    <h3>Quick Facts</h3>
+                    <ul>
+                        <li>Location: Delhi (DTU)</li>
+                        <li>Interests: AI, Robotics, Writing</li>
+                        <li>Languages: English, Hindi</li>
+                        <li>Availability: Open to internships, Freelance and collaboration</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="container section">
+            <h2>Education / Skills</h2>
+            <div class="edu-skills">
+                <div class="education">
+                    <h3>Education</h3>
+                    <ul>
+                        <li>High School — Saint Giri Senior Secondary School, 2023-2025</li>
+                        <li>Incoming — Delhi Technological University (DTU), Computer Science Engineering, 2025-2029
+                        </li>
+                    </ul>
+                </div>
+                <div class="skills">
+                    <h3>Skills</h3>
+                    <ul class="skill-list">
+                        <li>Python, C (beginner)</li>
+                        <li>HTML, CSS, JavaScript (basics)</li>
+                        <li>AI & ML concepts (learning)</li>
+                        <li>AI Agents and Robotics fundamentals</li>
+                        <li>Quantum Computing Basics</li>
+                        <li>Story writing & creative skills</li>
+                        <li>Communication and TeamWork</li>
+                        <li>Leadership</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="container section">
+            <h2>Projects / Portfolio</h2>
+            <p class="muted">Each project has a short description and a link to source or demo (if available).</p>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Personal Portfolio Website</h3>
+                    <p>A clean and responsive personal website built using HTML and CSS, featuring Home, About, Skills,
+                        Projects, and Contact sections.</p>
+                    <a href="#" class="btn">View Source</a>
+                </div>
+
+                <div class="project-card">
+                    <h3>Library Management System</h3>
+                    <p>A functional UI using Python form controls and DBMS for data storing with a structured layout
+                        and input validation.</p>
+                    <a href="assets/Library Management System.pdf" class="btn">View Code</a>
+                </div>
+
+                <div class="project-card">
+                    <h3>Basic Calculator UI</h3>
+                    <p>A user interface of a simple calculator created using HTML and CSS, focusing on layout, grid
+                        design, and button styling.</p>
+                    <a href="#" class="btn">View UI</a>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="contact" class="container section contact-section">
+            <h2>Contact</h2>
+            <p>If you want to collaborate — email me or connect on social media.</p>
+            <div class="social-icons">
+                <a href="mailto:shivangi_cse_25a05059@dtu.ac.in" class="icon"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://github.com/Shivangi2008" id="github-link-2" class="icon"><i
+                        class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/shivangi-414696351/" id="linkedin-link-2" class="icon"><i
+                        class="fa-brands fa-linkedin"></i></a>
+            </div>
+
+
+            <form class="contact-form" action="mailto:shivangi_cse_25a05059@dtu.ac.in" method="post">
+                <label for="name">Name</label>
+                <input id="name" name="name" type="text" placeholder="Your name" required>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" placeholder="Write a short message..."></textarea>
+                <button class="btn" type="submit">Send</button>
+            </form>
+        </section>
+
+
+    </main>
+
+
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; <span id="year"></span> Shivangi — Built with Love. </p>
+            <p><small>Personal Portfolio Website</small></p>
+        </div>
+    </footer>
+
+
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+        // Optional: update external link placeholders with values from links.txt when hosting.
+    </script>
+
+
+</body>
+
+</html>
