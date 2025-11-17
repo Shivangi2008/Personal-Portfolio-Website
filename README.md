@@ -17,7 +17,7 @@ Built using **HTML, CSS, and JavaScript**, it focuses on minimal design, smooth 
 - **JavaScript** (Not Yet)  
 
 ## 🔹 Live Demo
-portfolio link
+portfolio link:  https://shivangi2008.github.io/Personal-Portfolio-Website/#projects
 
 ## 🔹 Project Structure
 root/
